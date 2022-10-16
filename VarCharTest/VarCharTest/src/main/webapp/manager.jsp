@@ -40,9 +40,9 @@
 							<img id="preview" src="${imgSrc}">
 						</c:if>
 					</div>
+					<!-- 이전에 있던 데이터를 선택해 수정할때 -->
 					<div id="addCarInfo">
 						<c:choose>
-							<!-- 이전에 있던 데이터를 선택해 수정할때 -->
 							<c:when test="${data!=null}">
 								<form action="managerUpdate.do" method="post"
 									enctype="multipart/form-data">
