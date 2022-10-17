@@ -1,8 +1,8 @@
 🛑프로젝트 : VarChar(반응형 중고차 서비스 웹)🛑
 
 💠타겟 사이트
-  컨 셉 : 현대오토빌
-  크롤링 데이터 추출 : 보배드림
+  컨 셉 : 현대오토빌(https://autobell.co.kr/main),カーセンサー（https://www.carsensor.net/）
+  크롤링 데이터 추출 : 보배드림(https://www.bobaedream.co.kr/)
 
 💠개발환경
   FrontEnd : VSCode
@@ -50,19 +50,19 @@
   관리자 권한으로 차량 매물 관리
   문의 게시판 문의글의 아코디언 플러그인 기능 구현
   커스텀 태그를 활용한 동일로직 처리
-  scope를 통한 세션관리
+  Singleton Pattern를 통한 세션관리
   
   
   
-🛑プロジェクト：VarChar（レスポンシブ中古車サービスWeb）🛑
+🛑プロジェクト：VarChar（responsive中古車サービスWeb）🛑
 
 💠ターゲットサイト
-  コンセプト：ヒュンダイオートビル
-  クロールデータ抽出：宝の夢
+  コンセプト：ヒュンダイオートビル(https://autobell.co.kr/main)、カーセンサー（https://www.carsensor.net/）
+  クロールデータ抽出：https://www.bobaedream.co.kr/
 
 💠開発環境
   フロントエンド : VSCode
-  バックエンド：エクリプス
+  バックエンド：Eclipse
   DBMS：MySQL
   議事録/資料共有：Slack
   バージョン管理：Git（SourceTree）
@@ -78,7 +78,7 @@
   Maps API
   カカオペイAPI
   メールAPI
-  文字API
+  SMS API
   アドレスAPI
   カカオログインAPI
   
@@ -97,13 +97,13 @@
   多言語処理（韓国語、英語、日本語、中国語）
 
 💠プロジェクトの説明
-  既存のjspプロジェクトをSpringバージョンにエスカレーション
-  フィルタ機能Java - > Mybatisエスカレーション
-  EメールAPIを介してID /パスワードを探す
-  会員登録時の文字APIによる本人認証
-  作成した記事全部削除、すべて維持選択後「トランザクション」を使用して会員脱退を実装
-  ajaxによるデータ転送処理
-  管理者権限で車両売り物を管理
+  既存のjspプロジェクトをSpringバージョンに移管
+  フィルタ機能Java - > Mybatisに移管
+  メールAPIを利用しID /パスワード検索
+  会員登録時のSMS APIによる本人認証
+  作成したポスト全部削除、すべて維持選択後「トランザクション」を使用して会員脱退を実装
+  ajaxによるデータ非同期処理
+  管理者権限で商品データ管理
   お問い合わせ掲示板 お問い合わせのアコーディオンプラグイン機能の実装
-  カスタムタグを利用した同一ロジック処理
-  scopeによるセッション管理
+  カスタムタグを利用した同一View Component処理
+  Singleton Patternによるセッション管理
