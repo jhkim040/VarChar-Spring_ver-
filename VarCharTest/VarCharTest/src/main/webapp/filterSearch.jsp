@@ -359,37 +359,28 @@
          <div class="row" id = "viewItems">
      <c:if test="${fn:length(datas) == 0}">
       <div id="noItems">
-      	<!-- 검색 결과가 없을때의 출력 문구 -->
          <p><spring:message code = "filtersearch.p.noitem" /></p>
          <div id="noItemsBtn">
-         <!-- 검색 결과 없을 때 전체 검색 버튼 -->
             <button id="viewAllItems" type="button" onclick="location.href='filter.do';"><spring:message code = "filtersearch.button.viewallitems" /></button>
-         <!-- 검색 결과 없을 때 메인으로 가는 버튼 -->  
             <button id="goToMain" type="button" onclick="location.href='main.do';"><spring:message code = "filtersearch.button.gotomain" /></button>   
          </div>         
       </div>
    </c:if>
-   <!-- 크롤링 데이터가 나오는 구간
-   이 때 필터 검색시 필터 검색에 맞게끔 나온다. -->
    <c:if test="${fn:length(datas) > 0}">
          <c:forEach var="c" items="${datas}">
           <div class="col-md-4">
             <div class="car-wrap rounded ftco-animate">
-            <!-- 이미지 -->
               <div
                 class="img rounded d-flex align-items-end"
               >
               <img style="width:100%;height:100%;" alt="크롤링한 페이지" src="${c.cimg}"/>
              </div>
-             <!-- 제목 -->
               <div class="text">
                 <h2 class="mb-0">
                   <a href="detail.do?cnum=${c.cnum}">${c.ctitle}</a>
                 </h2>
-                <!-- 주행거리 -->
                 <div class="d-flex mb-3">
                   <span class="cat">${c.ckm} km</span>
-                  <!-- 가격 인트 의 최댓값일때 == 상담 예약으로 변경-->
                   <c:choose>
                      <c:when test="${c.cprice >= 400000}">
                         <p class="price ml-auto"><spring:message code = "filtersearch.p.pricemlauto.reserve" /></p>
@@ -400,9 +391,7 @@
                   </c:choose>
                 </div>
                 <p class="d-flex mb-0 d-block">
-                <!-- 찜하기 버튼 -->
                   <a href="storeAdd.do?cnum=${c.cnum}" class="btn btn-primary py-2 mr-1"><spring:message code = "filtersearch.a.btnbtnprimarypy2mr1.reserve" /></a>
-                <!-- 상세 정보인 detail.jsp로 이동하는 버튼 -->
                  <a href="detail.do?cnum=${c.cnum}" class="btn btn-secondary py-2 ml-1"><spring:message code = "filtersearch.a.btnbtnsecondarypy2ml1.info" /></a>
                 </p>
               </div>

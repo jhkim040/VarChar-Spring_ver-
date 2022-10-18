@@ -67,10 +67,10 @@
             </c:if>
             <c:if test="${userId == null}">
                <div class="nonLoginCartBtns">
-                  <button class="cartLoginBtn" onclick="location.href='login.jsp';">
+                  <button class="cartLoginBtn" onclick="location.href='login.do';">
                      <spring:message code = "zzim.cartLoginBtn" /></button>
                   <button class="cartSignupBtn"
-                     onclick="location.href='signup.jsp';"><spring:message code = "zzim.cartSignupBtn" /></button>
+                     onclick="location.href='signup.do';"><spring:message code = "zzim.cartSignupBtn" /></button>
                </div>
             </c:if>
             <button class="cartCloser"><spring:message code = "zzim.cartCloser" /></button>
