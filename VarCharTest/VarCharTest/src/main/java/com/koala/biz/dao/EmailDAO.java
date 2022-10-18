@@ -42,8 +42,8 @@ public class EmailDAO {
 		String fromUsername = "<VARCHAR>"; 
 		String toEmail = mvo.getMemail(); // 콤마(,)로 여러개 나열
 
-		final String username = "rlatndus2005@gmail.com";//구글 계정    
-		final String password = "rhfsldkvxixqhacl";//발급받은 앱 비밀번호
+		final String username = "";//구글 계정    
+		final String password = "";//발급받은 앱 비밀번호
 
 		// 메일에 출력할 텍스트
 		StringBuffer sb = new StringBuffer();
@@ -155,8 +155,8 @@ public class EmailDAO {
 		String fromUsername = "<VARCHAR>"; 
 		String toEmail = mvo.getMemail(); // 콤마(,)로 여러개 나열
 
-		final String username = "rlatndus2005@gmail.com";//구글 계정    
-		final String password = "rhfsldkvxixqhacl";//발급받은 앱 비밀번호
+		final String username = "";//구글 계정    
+		final String password = "";//발급받은 앱 비밀번호
 		
 		// 메일에 출력할 텍스트
 		StringBuffer sb = new StringBuffer();
