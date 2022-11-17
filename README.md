@@ -1,19 +1,19 @@
 🛑프로젝트 : VarChar(반응형 중고차 서비스 웹)🛑
 
 💠타겟 사이트
-  컨 셉 : 현대오토빌(https://autobell.co.kr/main),カーセンサー（https://www.carsensor.net/）
+  컨 셉 : 현대오토빌(https://autobell.co.kr/main), カーセンサー（https://www.carsensor.net/）
   크롤링 데이터 추출 : 보배드림(https://www.bobaedream.co.kr/)
 
 💠개발환경
-  FrontEnd : VSCode
-  BackEnd : Eclipse
+  FrontEnd(IDE) : VSCode
+  BackEnd(IDE) : Eclipse
   DBMS : MySQL
   회의록/자료공유 : Slack
   버전관리 : Git(SourceTree)
   회의 : Discord
-  사용 언어 : HTML, CSS, JavaScript, Jquery, Java, Jsp
-  프레임워크 : Spring
-
+  사용 언어 : HTML, CSS, JavaScript(ES6), Jquery, Java(JDK11)
+  프레임워크 : Spring Framework 4.2.4 (Spring legacy project)
+  
 💠주 기능
   필터검색
   웹소켓을 이용한 실시간 채팅
@@ -61,14 +61,14 @@
   クロールデータ抽出：https://www.bobaedream.co.kr/
 
 💠開発環境
-  フロントエンド : VSCode
-  バックエンド：Eclipse
+  フロントエンド(IDE) : VSCode
+  バックエンド(IDE)：Eclipse
   DBMS：MySQL
   議事録/資料共有：Slack
   バージョン管理：Git（SourceTree）
   会議: Discord
-  使用言語: HTML、CSS、JavaScript、Jquery、Java、Jsp
-  フレームワーク：Spring
+  使用言語: HTML, CSS, JavaScript(ES6), Jquery, Java(JDK11)
+  フレームワーク：Spring Framework 4.2.4 (Spring legacy project)
   
  💠主な機能
   フィルタ検索
